@@ -1,0 +1,23 @@
+{
+  "name": "apollo-mixed-client-remote-queries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "apollo-cache-inmemory": "1.1.11",
+    "apollo-client": "2.2.7",
+    "apollo-link": "1.2.1",
+    "apollo-link-http": "1.5.3",
+    "apollo-link-state": "0.4.1",
+    "graphql": "0.13.1",
+    "graphql-tag": "2.8.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
